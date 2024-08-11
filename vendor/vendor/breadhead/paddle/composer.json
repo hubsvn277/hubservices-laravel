@@ -1,0 +1,20 @@
+{
+	"name": "breadhead/paddle",
+	"type": "library",
+	"description": "Breadhead version of Paddle.com API PHP library",
+	"homepage": "https://github.com/breadhead/paddle",
+	"license": "MIT",
+	"version": "1.2.1",
+	"require": {
+		"php": ">=7.0.0",
+		"ext-curl": "*"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "~4.2.2"
+	},
+	"autoload": {
+		"psr-4": {
+			"Breadhead\\Paddle\\": "src/"
+		}
+	}
+}
